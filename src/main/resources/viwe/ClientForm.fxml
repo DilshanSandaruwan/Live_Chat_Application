@@ -84,7 +84,9 @@
                         </ImageView>
                         <ImageView fitHeight="48.0" fitWidth="53.0" onMouseClicked="#emoji10" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
                             <image>
-                                <Image url="@../img/icons8-smileys-48%20(1).png" />
+                                <Image>
+                                    <url>@../img/icons8-smileys-48(1).png</url>
+                                </Image>
                             </image>
                         </ImageView>
                         <ImageView fitHeight="48.0" fitWidth="53.0" onMouseClicked="#emoji9" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
