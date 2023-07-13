@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-
+<?import javafx.scene.text.*?>
 
 <AnchorPane fx:id="ClientPane" prefHeight="655.0" prefWidth="461.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientController">
     <children>
         <AnchorPane layoutY="-2.0" prefHeight="62.0" prefWidth="461.0" style="-fx-background-color: #c2bba9;">
             <children>
-                <Label fx:id="lblName" layoutX="186.0" layoutY="21.0" text="SETHMINI">
+                <Label fx:id="lblName" layoutX="186.0" layoutY="21.0" text="Dilshan">
                     <font>
                         <Font size="14.0" />
                     </font>
@@ -125,4 +123,3 @@
         </AnchorPane>
     </children>
 </AnchorPane>
-
