@@ -58,7 +58,7 @@ public class ClientController extends Thread{
         //msgVbox.getChildren().add(new Label("test"));
 
         try{
-            socket= new Socket("localhost",4500);
+            socket= new Socket("localhost",1500);
             System.out.println("Socket connected to server");
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);

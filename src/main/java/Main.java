@@ -9,9 +9,10 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(this.getClass().getResource("/view/loginForm.fxml"));
+        Parent root = FXMLLoader.load(this.getClass().getResource("/viwe/LogingForm.fxml"));
         Scene mainScene = new Scene(root);
         stage.setScene(mainScene);
         stage.setTitle("Java FX POS");
